@@ -1,13 +1,10 @@
-import background from '../assets/winter-house.png';
-
 // All effect coordinates refer to this image's original pixel dimensions.
 export const scene = {
-  background,
+  background: `${import.meta.env.BASE_URL}assets/backgrounds/winter-house.png`,
   width: 1672,
   height: 941,
-  audio: `${import.meta.env.BASE_URL}audio/fireplace.mp3`,
+  audio: `${import.meta.env.BASE_URL}audio/269062__nebulousflynn__wood-burning-stove.wav`,
   steamSeconds: 10,
-  snowSeconds: 12,
   fireSeconds: 3,
   cup: { x: 1174, y: 622 },
   fire: { x: 198, y: 451, radius: 230 },
